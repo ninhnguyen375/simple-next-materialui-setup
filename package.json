@@ -1,0 +1,21 @@
+{
+  "author": "ninhnguyen375",
+  "name": "simple-nextjs-and-material-ui-setup",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "jss": "^9.8.7",
+    "next": "lastest",
+    "prop-types": "^15.7.2",
+    "react": "lastest",
+    "react-dom": "lastest",
+    "react-jss": "^8.6.1"
+  },
+  "scripts": {
+    "start": "next start",
+    "dev": "next -- -p 3001",
+    "build": "next build"
+  }
+}
