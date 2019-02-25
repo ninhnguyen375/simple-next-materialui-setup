@@ -67,7 +67,17 @@ export class Footer extends Component {
             ))}
           </Grid>
           <p>
-            &copy; Ninh Nguyen | <a href="#">Project on GitHub</a>
+            &copy;{' '}
+            <a
+              style={{ color: 'white' }}
+              href="https://github.com/ninhnguyen375"
+            >
+              Ninh Nguyen
+            </a>{' '}
+            |{' '}
+            <a href="https://github.com/ninhnguyen375/simple-next-materialui-setup">
+              Project on GitHub
+            </a>
           </p>
         </footer>
         {/* End footer */}
