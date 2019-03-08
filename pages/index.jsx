@@ -1,14 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Product from '../components/Product/Product';
 
-export class index extends Component {
-  render() {
-    return (
-      <>
-        <Product />
-      </>
-    );
-  }
-}
+const index = () => <Product />;
 
 export default index;

@@ -11,11 +11,19 @@
     "prop-types": "^15.7.2",
     "react": "lastest",
     "react-dom": "lastest",
-    "react-jss": "^8.6.1"
+    "react-jss": "^8.6.1",
+    "styled-jsx": "^3.2.1"
   },
   "scripts": {
     "start": "next start",
     "dev": "next -- -p 3001",
     "build": "next build"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
   }
 }
